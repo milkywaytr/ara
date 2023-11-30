@@ -3,7 +3,6 @@ import pickle
 import numpy as np
 
 model = pickle.load(open('iri.pkl', 'rb'))
-model2 = pickle.load()
 app = Flask(__name__)
 
 @app.route('/')
