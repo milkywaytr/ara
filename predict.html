@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Prediction</title>
+</head>
+<body>
+    <h1>Machine Learning Prediction</h1>
+    <form action="/api/predict" method="post">
+        <label for="feature1">Feature 1:</label>
+        <input type="text" id="feature1" name="feature1" required>
+        <br>
+        <label for="feature2">Feature 2:</label>
+        <input type="text" id="feature2" name="feature2" required>
+        <br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if result %}
+        <h2>Result:</h2>
+        <p>Feature 1: {{ result.feature1 }}</p>
+        <p>Feature 2: {{ result.feature2 }}</p>
+        <p>Prediction: {{ result.prediction }}</p>
+    {% endif %}
+</body>
+</html>
