@@ -24,7 +24,6 @@ et-xmlfile==1.1.0
 exceptiongroup==1.2.0
 executing==1.0.0
 fastapi==0.65.1
-Flask==3.0.0
 Flask-Cors==4.0.0
 Flask-RESTful==0.3.10
 geographiclib==2.0
