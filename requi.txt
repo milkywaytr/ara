@@ -77,7 +77,6 @@ pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==8.2.0
 platformdirs==4.0.0
-prettytable==3.9.0
 prometheus-client==0.10.1
 prompt-toolkit==3.0.18
 psutil==5.9.6
