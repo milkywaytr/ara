@@ -34,7 +34,7 @@ hidapi==0.14.0
 idna==3.5
 imbalanced-learn==0.8.0
 imblearn==0.0
-importlib-metadata==6.8.0
+importlib-metadata==6.7.0
 importlib-resources==6.1.1
 intelhex==2.3.0
 intervaltree==3.1.0
